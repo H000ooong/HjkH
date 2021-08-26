@@ -1,0 +1,11 @@
+#ad {
+    width: 750px;
+    height: 135px;
+}
+main>form {
+    display: inline-block;
+    padding: 200px 30px;
+}
+.search_bar {
+    width: 300px;
+}

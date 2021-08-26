@@ -1,0 +1,22 @@
+.srchbook {
+    width: 500px;
+    margin: 50px auto;
+}
+.srch {
+    width: 500px;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.bookimg img {
+    width: 150px;
+    height: 200px;
+}
+.bookname, .bookath {
+    width: 500px;
+    margin: 10px auto;
+}
+.bookcon {
+    width: 500px;
+    margin: 30px auto;
+}

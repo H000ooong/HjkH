@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스타 레이스 클로킹</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="outline_style.css">
+    <link rel="stylesheet" href="javascript_style.css">
+</head>
+
+<body>
+    <div class="whole_wrapper">
+        <header>
+            <div class="logo">
+                <h1>
+                    <a href="index.html"><span>H</span><span>제이</span><span>케이</span><span>H</span></a>
+                </h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="javascript.html">스타 레이스 클로킹</a></li>
+                    <li><a href="api.html">책 검색</a></li>
+                    <li><a href="login.html">로그인</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="content">
+            <main>
+                <div class="starcraft">
+                    <img id="cloaking" src="cloaking.png" alt="cloaking">
+                    <img id="wraith" src="wraith.png" alt="wraith">
+                </div>
+            </main>
+        </section>
+        <footer>
+            <div class="cor_area">
+                <a href="index.html">홈페이지</a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        $("#cloaking").click(function () {
+            $("#wraith").fadeToggle("slow", "linear");
+        });
+    </script>
+</body>
+
+</html>
